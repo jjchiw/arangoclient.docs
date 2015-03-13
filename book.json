@@ -1,0 +1,16 @@
+{
+    
+    "links": {
+        "home": "http://www.arangoclient.net/",
+
+        "about": "http://www.arangoclient.net/",
+        "issues": "https://github.com/ra0o0f/arangoclient.net/issues",
+        "edit": null,
+
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null
+        }
+    }
+}

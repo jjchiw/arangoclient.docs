@@ -36,7 +36,7 @@ using (IArangoDatabase db = new ArangoDatabase(sharedSetting))
 ```
 
 As you can see there are properties other than `database` and `url` that could be used to change client default behavior 
-([database setting in detail](/DatabaseSetting.html)).
+( [database setting in detail](./DatabaseSetting.md) ).
 So instead of pass the `database` and `url` property each time you create `ArangoDatabase`,  you can use a `DatabaseSharedSetting` and pass it to all places `ArangoDatabase` is used, you can even store it for the application life time.
 
 To store `DatabaseSharedSetting` for the application life time, there are static methods
